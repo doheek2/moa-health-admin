@@ -50,7 +50,6 @@ const DatePicker = ({ isSubmit, page, state }: Props) => {
 
   return (
     <fieldset className={styles.wrapper}>
-      <p className={styles.label}>날짜</p>
       <div className={cn(styles.optionsWrapper, { [styles.invalidated]: isSubmit && (!startDate || !endDate) })}>
         <button
           type='button'

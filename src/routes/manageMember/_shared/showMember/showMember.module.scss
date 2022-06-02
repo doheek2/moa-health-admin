@@ -50,7 +50,7 @@
 
           button {
             @include visual.btnActive;
-            padding: 0 18px;
+            padding: 0 15px;
             font-size: sizes.$SMALL;
 
             &:hover {
