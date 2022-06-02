@@ -1,8 +1,7 @@
 # ⛳ Health Admin Web
 
-
-<img width="1457" alt="스크린샷 2022-06-02 오후 6 43 34" src="https://user-images.githubusercontent.com/50236673/171603234-af66de80-f808-4ffc-afd6-326d179b0690.png">
-<img width="1456" alt="스크린샷 2022-06-02 오후 6 43 29" src="https://user-images.githubusercontent.com/50236673/171603249-24d2ad4c-984e-4824-a85c-f30b9ab0713a.png">
+<img width="1448" alt="스크린샷 2022-06-03 오전 2 02 30" src="https://user-images.githubusercontent.com/50236673/171684705-74ccec18-a107-49cb-a433-e8689d632d72.png">
+<img width="1448" alt="스크린샷 2022-06-03 오전 2 01 43" src="https://user-images.githubusercontent.com/50236673/171684578-6f119803-58b5-489b-a452-46c5f48e884f.png">
 
 - **배포 URL** <br /> [https://moa-health-admin.netlify.app/](https://moa-health-admin.netlify.app/)
 
