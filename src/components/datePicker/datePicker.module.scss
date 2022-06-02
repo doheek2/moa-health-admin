@@ -9,12 +9,6 @@
   align-items: center;
   width: max-content;
 
-  .label {
-    margin-right: 8px;
-    font-size: 16px;
-    color: colors.$GREY_800;
-  }
-
   .optionsWrapper {
     position: relative;
     @include flexbox.flexbox('center', 'center');

@@ -3,10 +3,9 @@
 @use '/src/styles/mixins/flexbox';
 
 .sideBarWrapper {
-  @include flexbox.flexbox(between, around, col);
+  @include flexbox.flexbox(between, stretch, col);
   width: 320px;
   min-width: 320px;
-  max-width: 320px;
   min-height: 100vh;
   padding: 60px 40px;
   box-shadow: colors.$SHADOW;
