@@ -266,7 +266,40 @@
 <br>
 
 ### 회원 관리
-블라블라 작성하기
+<details>
+<summary>펼치기</summary>
+회원 관리 페이지에서 조건에 맞는 회원 검색 기능 구현
+
+- filtering
+
+  - 각 조건을 state에 저장
+  - 조건을 사용자가 입력할때마다 state 업데이트
+  - 검색 버튼 클릭시 전체 회원 중 해당 조건에 맞는 회원 정보를 가져와 렌더링
+
+필터링 함수
+
+  ```typescript
+const onSubmitForm = () => {
+    let filteredArr = data;
+    if (searchKeyword.username !== '전체') {
+      filteredArr = data.filter((el) => el.username === searchKeyword.username);
+    }
+
+    if (filteredArr.length !== 0 && searchKeyword.id !== '전체') {
+      filteredArr = filteredArr.filter((el) => el.id === Number(searchKeyword.id));
+    }
+
+    if (filteredArr.length !== 0) {
+      filteredArr = filteredArr.filter(
+        (el) => new Date(el.crt_ymdt) >= new Date(date.startDate) && new Date(el.crt_ymdt) <= new Date(date.endDate)
+      );
+    }
+
+    setMemberListState(filteredArr);
+    setIsSubmit(true);
+  };
+```
+</details>
 
 
 <br />
